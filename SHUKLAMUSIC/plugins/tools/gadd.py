@@ -2,9 +2,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 OWNERS = "8092632336"
-from SONALI import app
-from SONALI.utils.database import add_served_chat, get_assistant
-
+from SHUKLAMUSIC import app
+from SHUKLAMUSIC.utils.database import add_served_chat, get_assistant
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
 async def add_allbot(client, message):
