@@ -21,7 +21,7 @@ async def add_allbot(client, message):
         app_id = bot.id
         done = 0
         failed = 0
-        lol = await message.replyᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!s!**")
+        lol = await message.reply("Adding the given bot in all chats!")
         await userbot.send_message(bot_username, f"/start")
         async for dialog in userbot.get_dialogs():
             if dialog.chat.id == -1002646860241:
